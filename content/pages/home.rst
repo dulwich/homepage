@@ -14,7 +14,7 @@ and Windows.
 Documentation
 #############
 
-  * `API documentation <docs/api/>`_
+  * `API documentation <api>`_
   * `documentation (including basic tutorial) <docs>`_
 
 License

@@ -49,7 +49,8 @@ DISPLAY_PAGES_ON_MENU = False
 
 INDEX_SAVE_AS = 'news.html'
 
-STATIC_PATHS = ['releases', 'extra/apidocs.html']
+STATIC_PATHS = ['releases', 'extra/apidocs.html', 'extra/docs.html']
 EXTRA_PATH_METADATA = {
     'extra/apidocs.html': {'path': 'apidocs/index.html'},
+    'extra/docs.html': {'path': 'docs/index.html'},
 }

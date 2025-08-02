@@ -30,6 +30,6 @@ And to print it using porcelain::
 Further documentation
 ---------------------
 
-The dulwich documentation can be found `on the web <https://www.dulwich.io/docs/>`_.
+The dulwich documentation can be found `on ReadTheDocs <https://dulwich.readthedocs.io/>`_.
 
-`API reference <https://dulwich.readthedocs.io/>`_.
+`API reference <https://www.dulwich.io/api/>`_.
