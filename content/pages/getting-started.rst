@@ -32,4 +32,4 @@ Further documentation
 
 The dulwich documentation can be found `on the web <https://www.dulwich.io/docs/>`_.
 
-`API reference <https://www.dulwich.io/apidocs>`_.
+`API reference <https://dulwich.readthedocs.io/>`_.
