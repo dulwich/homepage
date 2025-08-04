@@ -128,5 +128,5 @@ content/pages/tarballs.rst::
 	python3 tarballs.py > $@
 
 docker:
-	docker build --load -t ghcr.io/dulwich/homepage .
-	docker push ghcr.io/dulwich/homepage
+	podman build --load -t ghcr.io/dulwich/homepage .
+	podman push ghcr.io/dulwich/homepage
