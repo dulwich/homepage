@@ -1,7 +1,7 @@
 FROM debian:sid-slim AS build
 ADD . /code
 RUN apt -y update && apt -y install rsync git make python3-pip python3-dulwich curl && \
-    pip install --break-system-packages mkdocs-material && \
+    pip install --break-system-packages mkdocs-material pydoctor && \
     cd /code && mkdocs build && \
     git clone https://github.com/dulwich/dulwich /code/dulwich && \
     make -C /code/dulwich apidocs && \
