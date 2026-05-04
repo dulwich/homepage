@@ -1,0 +1,225 @@
+/* -----------------------------------------------------------------------
+   Colour overrides — near-black background, bright green accent
+------------------------------------------------------------------------ */
+:root {
+  --md-default-bg-color: #0d0d0d;
+  --md-default-fg-color: #e8e8e8;
+  --md-default-fg-color--light: #aaaaaa;
+  --md-default-fg-color--lighter: #666666;
+  --md-primary-fg-color: #0d0d0d;
+  --md-primary-bg-color: #e8e8e8;
+  --md-accent-fg-color: #00e676;
+  --md-code-bg-color: #161616;
+  --md-code-fg-color: #e8e8e8;
+}
+
+/* Header */
+.md-header {
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #222;
+  box-shadow: none;
+}
+
+.md-header__title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.md-tabs__link {
+  color: #888;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #e8e8e8;
+}
+
+/* Sidebar */
+.md-sidebar {
+  background-color: #0d0d0d;
+}
+
+.md-nav__title {
+  color: #555;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-nav__link {
+  color: #888;
+}
+
+.md-nav__link--active,
+.md-nav__link:hover {
+  color: #00e676;
+}
+
+/* Content area */
+.md-content {
+  max-width: 860px;
+}
+
+.md-main {
+  background-color: #0d0d0d;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #0a0a0a;
+  border-top: 1px solid #1e1e1e;
+}
+
+/* Links */
+.md-content a {
+  color: #00e676;
+}
+
+.md-content a:hover {
+  color: #69ffa3;
+}
+
+/* Code blocks */
+.highlight {
+  border-radius: 6px;
+}
+
+pre code {
+  font-size: 0.85em;
+}
+
+/* Headings */
+.md-content h1 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  font-size: 2.2rem;
+  border-bottom: 1px solid #1e1e1e;
+  padding-bottom: 0.4em;
+}
+
+.md-content h2 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #cccccc;
+  margin-top: 2em;
+}
+
+/* -----------------------------------------------------------------------
+   Hero section (used on index.md)
+------------------------------------------------------------------------ */
+.hero {
+  padding: 5rem 0 4rem;
+  border-bottom: 1px solid #1e1e1e;
+  margin-bottom: 3rem;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+  color: #ffffff;
+}
+
+.hero__subtitle {
+  font-size: 1.2rem;
+  color: #888;
+  margin: 0 0 2rem;
+  max-width: 560px;
+  line-height: 1.6;
+}
+
+.hero__cta {
+  display: inline-flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero__btn {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  letter-spacing: 0.01em;
+}
+
+.hero__btn--primary {
+  background: #00e676;
+  color: #0d0d0d !important;
+}
+
+.hero__btn--primary:hover {
+  background: #69ffa3;
+  color: #0d0d0d !important;
+}
+
+.hero__btn--secondary {
+  border: 1px solid #333;
+  color: #aaa !important;
+}
+
+.hero__btn--secondary:hover {
+  border-color: #555;
+  color: #e8e8e8 !important;
+}
+
+/* Feature grid */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: #161616;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 1.4rem 1.6rem;
+}
+
+.feature-card__title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #e8e8e8;
+  margin: 0 0 0.5rem;
+}
+
+.feature-card__body {
+  font-size: 0.85rem;
+  color: #777;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Install block */
+.install-block {
+  background: #161616;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 1.2rem 1.6rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1rem;
+  color: #00e676;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.install-block__prompt {
+  color: #444;
+  user-select: none;
+}
