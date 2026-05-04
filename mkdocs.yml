@@ -1,0 +1,58 @@
+site_name: Dulwich
+site_url: https://www.dulwich.io/
+site_description: Python implementation of the Git file formats and protocols
+site_author: Jelmer Vernooij
+repo_url: https://github.com/dulwich/dulwich
+repo_name: dulwich/dulwich
+
+docs_dir: docs
+site_dir: output
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - toc.follow
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dulwich/dulwich
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/dulwich/
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Downloads: downloads.md
+  - News: news.md
+  - Contributing: contributing.md
+  - Help: help.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      permalink: true
