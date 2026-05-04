@@ -1,10 +1,10 @@
 # News
 
-## 1.2.1 (2026-04-??)
+## 1.2.1 (2026-04-29)
 
 Bugfix release. See the [full changelog](https://github.com/dulwich/dulwich/blob/master/NEWS) for details.
 
-## 1.2.0 (upcoming)
+## 1.2.0 (2026-04-21)
 
 Highlights:
 
