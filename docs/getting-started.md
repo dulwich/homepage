@@ -54,4 +54,4 @@ for entry in r.get_walker():
 
 - Full tutorial and API docs: <https://dulwich.readthedocs.io/>
 - API reference: <https://www.dulwich.io/api/>
-- Examples: <https://github.com/dulwich/dulwich/tree/master/examples>
+- Examples: <https://github.com/dulwich/dulwich/tree/main/examples>
