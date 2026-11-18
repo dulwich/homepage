@@ -29,4 +29,7 @@ docker:
 	podman build --load -t ghcr.io/dulwich/homepage .
 	podman push ghcr.io/dulwich/homepage
 
+deploy: docker
+	ssh root@rhonwyn systemctl restart dulwich-homepage.service
+
 .PHONY: html help clean serve rsync_upload docker
