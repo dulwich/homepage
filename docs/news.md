@@ -1,5 +1,7 @@
 # News
 
+Not all releases may be announced here. See the [GitHub releases page](https://github.com/jelmer/dulwich/releases) for a full list.
+
 ## 1.2.21 (2026-11-04)
 
 Security and bugfix release:
