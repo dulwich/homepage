@@ -4,8 +4,6 @@ Not all releases may be announced here. See the [GitHub releases page](https://g
 
 ## 1.2.21 (2026-11-04)
 
-Security and bugfix release:
-
 - Refuse `porcelain.submodule_update` when the submodule path or one of its parents is already a symlink.
 - Strip terminal control bytes from sideband messages sent by a remote, so a hostile server can no longer inject ANSI escape sequences into the user's terminal.
 - Refuse to open pack indexes whose fanout claims more objects than the file can hold.
